@@ -1,0 +1,8 @@
+﻿  App.cpp
+H:\cpp\OpenGL\Shader\Shader\App.cpp(102,50): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+H:\cpp\OpenGL\Shader\Shader\App.cpp(102,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+H:\cpp\OpenGL\Shader\Shader\App.cpp(114,93): warning C4305: 'argument': truncation from 'double' to 'float'
+H:\cpp\OpenGL\Shader\Shader\App.cpp(126,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+H:\cpp\OpenGL\Shader\Shader\App.cpp(127,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+H:\cpp\OpenGL\Shader\Shader\App.cpp(175,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Shader.vcxproj -> H:\cpp\OpenGL\Shader\Debug\Shader.exe

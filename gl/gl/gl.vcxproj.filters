@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\mat">
+      <UniqueIdentifier>{796db5b0-9f04-41ae-8170-01c9c9685821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\vec">
+      <UniqueIdentifier>{f9c02a9d-f960-482e-ab5b-bfa9fea10d16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\vec\vec2">
+      <UniqueIdentifier>{02807229-7288-481b-b4bd-4e3a5a6c6973}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\deps\src\glad.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vec2.cpp">
+      <Filter>Resource Files\vec\vec2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vec2.h">
+      <Filter>Resource Files\vec\vec2</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec.h">
+      <Filter>Resource Files\vec</Filter>
+    </ClInclude>
+    <ClInclude Include="Mat.h">
+      <Filter>Resource Files\mat</Filter>
+    </ClInclude>
+    <ClInclude Include="Mat2.h">
+      <Filter>Resource Files\mat</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
